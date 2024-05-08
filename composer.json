@@ -1,5 +1,6 @@
 {
     "name": "gepo/apns-http2",
+    "version": "0.1.1",
     "license": "MIT",
     "type": "library",
     "description": "Library for sending APNS over HTTP/2.",
