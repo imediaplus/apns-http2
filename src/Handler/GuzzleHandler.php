@@ -34,9 +34,9 @@ class GuzzleHandler
     /**
      * GuzzleHandler constructor.
      */
-    public function __construct()
+    public function __construct(array $config = [])
     {
-        $this->httpClient = new HttpClient();
+        $this->httpClient = new HttpClient($config);
     }
 
     /**
